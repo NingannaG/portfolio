@@ -25,7 +25,7 @@ const page = () => {
         {/* {projects.map((project) => { */}
          <SingleProjetc title='E-Commerce Website' links='https://github.com/NingannaG/myECommerceWebsite'/>
          <SingleProjetc title= 'Social Media Website'links='https://github.com/NingannaG/Social--Media_Website' />
-         <SingleProjetc title='Fortfolio'links='https://github.com/NingannaG/InstaClone.git'/>
+         <SingleProjetc title='Fortfolio'links='https://github.com/NingannaG/portfolio.git'/>
          <SingleProjetc title='instagram clone(Basic)' links='https://github.com/NingannaG/InstaClone.git'/>
          <SingleProjetc title='To-Do app'links='https://github.com/NingannaG/DemoPOC.git'/>
          <SingleProjetc title='News App' links='https://github.com/NingannaG/NewsApp'/>
