@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.profileImage{
+    height: 400px;
+    width: 400px;
+    
+}

@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    height: 240px;
+    width: 240px;
+    background-color: rgb(184, 134, 215);
+    margin: 6px;
+    margin-left: 10px;
+    padding: 10px ;
+    color: rgb(250, 248, 246);
+    /* border: 1px solid rgb(36, 10, 232); */
+    flex-wrap: wrap;
+    border-radius: 5px;
+    justify-content: center;
+    box-shadow: 1px 1px 15px rgb(114, 192, 88);
+    scale: .2x;
+    
+    
+    
+}
+.container:hover{
+    box-shadow: 2px 2px 15px rgb(250, 191, 133);
+    scale: 1.031;
+    background-color: rgb(153, 132, 163);
+    transition: all ease .2s;
+}
+.cont{
+    margin: 10px 10px;
+    /* border: 1px solid red; */
+
+}
+.title{
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.linkes{
+    cursor: pointer;
+    margin: 10px 8px;
+}

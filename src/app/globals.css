@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: #070707;
+  height: 100vh;
+  background:linear-gradient(rgb(253, 145, 145),rgb(203, 242, 112),rgb(253, 145, 145));
+  /* background:url('https://i0.wp.com/picjumbo.com/wp-content/uploads/magical-spring-forest-scenery-during-morning-breeze-free-photo.jpg?w=2210&quality=70'); */
+  /* background:radial-gradient(rgb(247, 113, 113),rgb(243, 243, 21)); */
+
+  margin-top: 10px;
+  /* border: 1px solid red; */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

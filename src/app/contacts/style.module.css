@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    margin: 0px 200px;
+    padding: 50px 0px;
+    margin: 0px 200px;
+    margin-top: -20px;
+
+
+}
+.profileImage{
+    flex: 1;
+    justify-content: center;
+    margin: 30px 0px;
+    /* align-items: center;
+    text-align: center; */
+    /* align-content: center; */
+    
+}
+.imga{
+    height: 200px;
+    width: 25%;
+    object-fit: fill;
+    border-radius: 50%;
+}
+.personalDetail{
+    font-size: small;
+    line-height: 2em;
+    gap: 15;
+    margin-left: 10px;
+
+    /* border: 1px solid red; */
+
+}
+.name{
+    font: size 18px;
+}
+.number{
+    font-size: 18px;
+}
+.contactInput{
+    margin-top: 15px;
+    padding: 8px;
+    box-shadow: 0px 0px 15px white;
+    border-radius: 10px;
+}
+.contactButton{
+    box-shadow: 0px 0px 15px white;
+    border-radius: 10px;
+    margin-top: 15px;
+    background: rgb(3, 3, 3);
+    padding: 10px;
+    margin: 15px 80px;
+    color: white;
+ margin-top: 40px;
+}
+.contactButton:hover{
+    scale: 1.055;
+}
+.contactForm{
+    margin-top: 55px;
+}
+
