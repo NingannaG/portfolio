@@ -1,13 +1,16 @@
 import React from "react";
 import styles from "@/app/contacts/style.module.css";
+import Image from "next/image";
 
 const Page = () => {
   return (
     <>
       <div className={styles.container}>
         <div className={styles.profileImage}>
-          <img
+          <Image
             className={styles.imga}
+            width={250}
+            height={250}
             src="https://images.pexels.com/photos/4123018/pexels-photo-4123018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt=""
           />
