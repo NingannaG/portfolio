@@ -6,11 +6,11 @@ const page = () => {
       <div className="mx-36 px-5">
         <p className="text-4xl mt-10">About</p>
         <p className="text-xl text-justify py-5">
-          "Im a results-oriented MERN stack developer with a dynamic and
+          Im a results-oriented MERN stack developer with a dynamic and
           collaborative approach to software development. Ive honed my skills
           in MongoDB, Express.js, React, and Node.js to create scalable and
           efficient web applications, and one year experience in application
-          support."
+          support.
         </p>
         <div className="my-10">
           <h1 className="text-3xl ">EDUCATION</h1>
